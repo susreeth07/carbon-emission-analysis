@@ -1,0 +1,5 @@
+Evaluation_Strategy,Model,Train_Rows,Test_Rows,Train_Entities,Test_Entities,Entity_Overlap,MAE_MtCO2e,RMSE_MtCO2e,R2_Score
+Random Split (Standard 70/30),Random Forest Regressor,8785,3766,122,122,Yes (Same entities across time),1.6841,14.7755,0.9979
+Group-Aware Split (Unseen Entities),Random Forest Regressor,8250,4301,85,37,None (Strict zero overlap),4.4026,25.986,0.9823
+Random Split (Standard 70/30),Ridge Regression (Baseline),8785,3766,122,122,Yes (Same entities across time),116.5436,275.7941,0.2671
+Group-Aware Split (Unseen Entities),Ridge Regression (Baseline),8250,4301,85,37,None (Strict zero overlap),110.054,157.5395,0.3495

@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment configuration and secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Operating System temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large model binaries (>100MB exceeds GitHub standard push limit)
+# random_forest_pipeline.joblib is ~150.5MB; recreate anytime via `python src/train.py`
+outputs/models/random_forest_pipeline.joblib

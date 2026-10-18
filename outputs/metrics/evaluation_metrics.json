@@ -1,0 +1,16 @@
+[
+    {
+        "Model": "Ridge Regression (Baseline)",
+        "MAE_MtCO2e": 116.5436,
+        "RMSE_MtCO2e": 275.7941,
+        "R2_Score": 0.2671,
+        "Test_Samples": 3766
+    },
+    {
+        "Model": "Random Forest Regressor",
+        "MAE_MtCO2e": 1.6841,
+        "RMSE_MtCO2e": 14.7755,
+        "R2_Score": 0.9979,
+        "Test_Samples": 3766
+    }
+]
